@@ -8,7 +8,7 @@ print(f'Dataframe criado com sucesso, contendo {gasolina_df.shape[0]} linhas e {
 sns.set(style="whitegrid")
 
 plt.figure(figsize=(10, 6))
-sns.lineplot(x='dia', y='venda', data=gasolina_df, marker='o', color='b', label='Preço da Gasolina')
+sns.lineplot(x='dia', y='venda', data=gasolina_df, marker='o', color='r', label='Preço da Gasolina')
 
 plt.title('Preço da Gasolina ao Longo do Tempo')
 plt.xlabel('Dia')
